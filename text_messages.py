@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 #Creating a message that will be sent to my phone number from a given phone number with a custom message.
 client.messages.create(to = "personal number",
 	from_="twiliophonenumber",
-	body = "Hello, FROM PYTHON!")
+	body = "Hello!")
